@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* First 3 lines of code are needed for Tailwind CSS to work */
+
+/* In this file you will put global styles
+styles that will apply to every single tag you specify  */
+
+/* see below we have html and body 
+this means that all HTML and all <body> tags will have the following properties
+1. Padding 0
+2. Margin 0
+and font .... */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
